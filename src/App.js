@@ -19,20 +19,20 @@ import Service from './Jsfiles/Service';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Jsfiles/Navbar';
 import SignUp from './Jsfiles/SignUp';
+import Footer from './Jsfiles/Footer';
 class App extends Component{
   render(){
 return (
   <div className="App">
-
     <Routes>
 
-      <Route path="/" element={<Home/>}/>
+      <Route path="/project1" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/service" element={<Service/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/signup" element={<SignUp/>}/>
     </Routes>
-    
+
   </div>
 );
   }

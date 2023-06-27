@@ -1,6 +1,6 @@
 export const Menuitem=[{
     title: "Home",
-    url: "/",
+    url: "/project1",
     Cname: "nav-links",
     icon: "bi bi-house-fill"
 },
