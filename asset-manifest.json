@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/project1/static/css/main.4c9a3e85.css",
+    "main.js": "/project1/static/js/main.068cdcc7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/project1/static/js/787.28cb0dcd.chunk.js",
+    "static/media/annie-spratt-QckxruozjRg-unsplash.jpg": "/project1/static/media/annie-spratt-QckxruozjRg-unsplash.905e4a80030c7843c6e6.jpg",
+    "static/media/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg": "/project1/static/media/inaki-del-olmo-NIJuEQw0RKg-unsplash.c515259ddd5731dbbc76.jpg",
+    "static/media/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg": "/project1/static/media/priscilla-du-preez-ggeZ9oyI-PE-unsplash.86bbb1158e975a51d8d5.jpg",
+    "static/media/download (2)_prev_ui.png": "/project1/static/media/download (2)_prev_ui.1033b0faa221f0b2afa1.png",
+    "static/media/campus-life-3.jpg": "/project1/static/media/campus-life-3.00a4fad17f1fa54e0b16.jpg",
+    "static/media/2image3.jpg": "/project1/static/media/2image3.12e7c4cb043b6bc860a5.jpg",
+    "static/media/images.jpg": "/project1/static/media/images.7b316ebe3bc5ac4f0df1.jpg",
+    "index.html": "/project1/index.html",
+    "main.4c9a3e85.css.map": "/project1/static/css/main.4c9a3e85.css.map",
+    "main.068cdcc7.js.map": "/project1/static/js/main.068cdcc7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/project1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c9a3e85.css",
+    "static/js/main.068cdcc7.js"
+  ]
+}
