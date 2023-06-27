@@ -1,0 +1,24 @@
+.tour{
+    display:flex;
+    flex-direction:row;
+    padding:50px;
+    background-color:rgb(244, 244, 244);
+}
+.tour div{
+    margin:auto;
+
+}
+.tour .main h1{
+    color:rgb(91, 145, 176);
+font-size:50px;
+}
+
+.tour .main li{
+    color:rgb(29, 45, 56); 
+font-size:20px; 
+    text-decoration: none;
+}
+.tour div img{
+    height:300px;
+    width:600px;
+}
