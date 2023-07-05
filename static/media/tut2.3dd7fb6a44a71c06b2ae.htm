@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tut2.css">
+</head>
+<style>
+    table,th,td{
+
+border:1px solid black;
+border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  tr:hover{
+    background-color:rgb(119, 118, 118);
+    color:white;
+    }
+    th{
+        background-color: white;
+        color:black;
+    }
+  li{
+    list-style: none;
+  }
+  .head{
+    padding:10px;
+    background-color: rgb(198, 198, 198);
+    font-size:15px;
+    margin-bottom:50px;
+  }
+  
+  button{
+    border:2px solid black;
+  padding:10px 10px;
+  height:30px;
+   width:100px;
+text-align: center;
+    background-color:rgb(110, 109, 109);
+    color:white;
+  }
+  button:hover{
+    background-color:rgb(183, 181, 181);
+  }
+  .table1{
+    margin-top:50px;
+
+  }
+  #tab{
+    display:none;
+  }
+
+</style>
+<body>    
+     <div class="head">
+        <h1>Seat Matric at Uiet, Panjab University,Chandigarh </h1>
+     </div>
+     <div class="button">
+        <button onclick="click1()">Show/Hide</button>
+     </div>
+     <div class="table1" > 
+ <table id="tab">
+    <thead><th colspan="7">Seat Matric at Uiet, Panjab University,Chandigarh</th>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Category</th>
+            <th>Information Technology</th>
+            <th>Computer Science Amd Engineering</th>
+            <th>Electronics and Communication Engineering</th>
+            <th>Biotechnology</th>
+            <th>Electrical and Electronics Engineering</th>
+            <th>Mechanical Engineering</th>
+        </tr>
+        <tr>
+            <th>General</th>
+            <td>60</td>
+            <td>60</td>
+            <td>65</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <th>Schedule Caste</th>
+            <td>16</td>
+            <td>16</td>
+            <td>18</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <th>Schedule Tribes</th>
+            <td>8</td>
+            <td>8</td>
+            <td>9</td>
+            <td>6</td>
+            <td>6</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th>Person with Disability</th>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Sports</th>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Backword Classes</th>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Defence</th>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Riots/Terrorist Victium</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>Freedom Fighter</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>NRI</th>
+            <td>11</td>
+            <td>11</td>
+            <td>12</td>
+            <td>8</td>
+            <td>8</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <th>Cancer Patients</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>Aids Patient</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>Thalaseemia patient</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>One gird child out of two girl child</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>EWS</th>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th>Rural Area Students</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>Border Area Students</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>Wards of Kashmiri Displace dPerson</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th>Foriegn Nationals</th>
+            <td>5</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        </tbody>
+  
+    
+ 
+</table> 
+</div>  
+<script>
+   function click1(){
+    var x=document.getElementById('tab');
+    if(x.style.display=="block"){
+    x.style.display="none";
+   } 
+   else{
+    x.style.display="block";
+   }
+   }
+</script>
+</body>
+</html>
