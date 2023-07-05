@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tut7.css">
+</head>
+<style>
+    body{
+        background-image:url('../Components/cole-keister-vEgVWRBr2VY-unsplash.jpg');
+background-position:center;
+background-size:cover;
+position:relative;
+}
+h1{
+    margin-top:100px;
+    text-align:center;
+    color:rgb(130, 59, 59);
+    font-size:40px;
+}
+.form{
+    height:300px;
+       width:500px;
+      text-align:center;
+        margin:auto;
+        padding:50px 20px;
+       position: relative;
+       top: 0;
+       box-shadow: 10px 10px 10px 10px  rgb(234, 230, 230);
+       transition: top ease 0.5s; 
+       border-radius:20px;
+       margin-top:50px;
+}
+.item{
+    padding:20px;
+}
+label{
+    font-size: 25px;
+color:rgb(130, 59, 59);
+}
+input{
+    font-size: 25px; 
+}
+#button{
+    border-radius:15px;
+    padding:10px;
+    font-size:20px;
+    background-color:rgb(91, 145, 176) ;
+    color:white;
+}
+p{
+    font-size:25px;
+    color:rgb(130, 59, 59);
+}
+</style>
+<body>
+   <h1>Marks Percentage Calculator</h1>
+   <div class="form">
+    <form>
+        <div class="item">
+            <label >Scored Marks:</label><br>
+            <input type="number" id="marks">
+        </div>
+        <div class="item">
+            <label >Out of Marks:</label>
+            <br>
+    <input type="number" id="totalmarks">
+        </div>
+    </form> 
+        <button id="button" onclick="click1()">Calculate Now</button>
+    <p id="para"></p>
+   </div>
+  
+   
+
+   <script>
+  
+function click1(){
+    console.log("hello");
+    var a=document.getElementById('marks').value;
+    var b=document.getElementById('totalmarks').value;
+    console.log(a);
+    console.log(b);
+    var c=(a/b)*100;
+    console.log(c);
+string="Your Marks is "+c+"% ";
+document.getElementById('para').innerHTML+=string;
+}
+   </script>
+</body>
+</html>

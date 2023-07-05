@@ -1,0 +1,22 @@
+.contactbody{
+    margin-top:200px;
+}
+    .heading h1{
+        padding:100px;
+        padding-bottom:10px;
+        background-color: rgb(211, 210, 210);
+        font-size:25px;
+        color:rgb(63, 99, 121);
+    }
+    .hello{
+        color:rgb(141, 61, 61);
+        font-size:25px; padding-top:30px;
+    }
+    .address{
+        padding-top:30px;
+    }
+    /* img{
+        height:1000px;
+        width:2000px;
+        border:2px solid black;
+    } */

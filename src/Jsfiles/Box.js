@@ -19,7 +19,7 @@ function Box(){
            
             </div>
         </div>
-         <div className="campus">
+         <div className="campus awards">
          <div id="Campuslife"><h1>Student Awards</h1></div>
          
          <div className="list">

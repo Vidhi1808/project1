@@ -13,26 +13,31 @@
 import  React, { Component } from 'react';
 import Home from './Jsfiles/Home';
 import About from './Jsfiles/About';
-
+import Welcome from './Jsfiles/Welcome';
 import Contact from './Jsfiles/Contact';
-import Service from './Jsfiles/Service';
-import { Route, Routes } from 'react-router-dom';
+import Login from './Jsfiles/Login';
+import Awards from './Jsfiles/Awards';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Jsfiles/Navbar';
-import SignUp from './Jsfiles/SignUp';
+import Signup1 from './Jsfiles/SignUp1';
 import Footer from './Jsfiles/Footer';
+import Login1 from './Jsfiles/Login1';
 class App extends Component{
   render(){
 return (
   <div className="App">
+    <Router>
     <Routes>
 
       <Route path="/project1" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
-      <Route path="/service" element={<Service/>}/>
+      <Route path="/login" element={<Login1/>}/>
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/signup" element={<SignUp/>}/>
+      <Route path="/signup" element={<Signup1/>}/>
+      <Route path="/welcome" element={<Welcome/>}/>
+      <Route path="/awards" element={<Awards/>}/>
     </Routes>
-
+    </Router>
   </div>
 );
   }

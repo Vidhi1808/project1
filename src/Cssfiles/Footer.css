@@ -1,11 +1,10 @@
-.foot{
+/* .foot{
+    
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
     background-color:rgb(91, 123, 143);
-/*background-image: url('outline-world-map-on-white-background-vector-31557221-removebg-preview.png');
-background-repeat: no-repeat;
-background-size:100% 100%; */
+
 color:white;
 padding-bottom:50px;
 }
@@ -48,6 +47,79 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .foot2 ul{
     list-style:none;
     text-align: start;
+}
+footer p{
+    text-align:center;
+    background-color: rgb(57, 83, 99);
+    color:white;
+    padding:15px;
+    padding-bottom:10px;
+} */
+
+.foot{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-color:rgb(91, 123, 143);
+background-image: url('../Components/outline-world-map-on-white-background-vector-31557221-removebg-preview.png');
+background-repeat: no-repeat;
+background-size:100% 100%;
+color:white;
+padding-bottom:30px;
+}
+.foot div{
+    height:300px;
+    width:250px;
+   text-align:center;
+     margin:auto;
+
+}
+.foot h1{
+    display:flex;
+    flex-direction: row;
+    font-size:0px;
+}
+.foot1 h1 img{
+    padding-right: 30px;
+height:80px;
+padding-top:32px;
+}
+.foot1 p{
+    color:white;
+text-align: start;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot1 h1 p{
+    font-size:25px;
+    padding-top:60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot2 h1{
+/* text-align:start;
+font-size:35px;
+ */
+ padding-left:40px;
+ padding-top:50px;
+ text-align:center;
+ font-size:30px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot2 ul{
+    list-style:none;
+    text-align: start;
+}
+.foot2 li i{
+    color:white;
+    font-size:20px;
+}
+.foot2 li a{
+    text-decoration: none;
+font-size:20px;
+color:white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot2 li a:hover{
+    color:rgb(57, 83, 99);
 }
 footer p{
     text-align:center;

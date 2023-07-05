@@ -5,7 +5,6 @@ const Multiple=()=>{
 const [register,setregister]=useState({
     username:"",
     email:"",
-    phone:"",
     password:""
 });
 const [records,setrecords] =useState([]);
@@ -20,12 +19,12 @@ const newRecord={...register,id:new Date().getTime().toString()}
 console.log(records);
 setrecords([...records,newRecord]);   
 // console.log(records);
-setregister({username:"",email:"",phone:"",password:""});
+setregister({username:"",email:"",password:""});
 }
     return(
       <>
         <div className="form">
-            <h1>Sign Up</h1>
+            <h1>Login</h1>
                 <form action="" onSubmit={handleSubmit} className="formmain">
                     <div className="form1">
                     <div>
@@ -35,10 +34,6 @@ setregister({username:"",email:"",phone:"",password:""});
             <div>
                 <label htmlFor="email">email</label><br></br>
                 <input type="email" autoComplete="off" value={register.email} onChange={handleinput} name="email" id="email"/>
-            </div>
-            <div>
-                <label htmlFor="phone">phone</label><br></br>
-                <input type="phone" autoComplete="off" value={register.phone} onChange={handleinput} name="phone" id="phone"/>
             </div>
             <div>
                 <label htmlFor="password">password</label><br></br>

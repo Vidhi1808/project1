@@ -1,9 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 .info{
+    
     background-image:url('../Components/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     opacity:0.9;
-    height:600px;
+    height:700px;
     }
     .info h1{
      padding:300px 20px;

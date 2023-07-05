@@ -14,11 +14,23 @@ font-size:50px;
 }
 
 .tour .main li{
-    color:rgb(29, 45, 56); 
+   
 font-size:20px; 
-    text-decoration: none;
+font-weight: bold;
+    list-style-type:square;
+    color:rgb(92, 115, 130);  
 }
 .tour div img{
     height:300px;
     width:600px;
+}
+
+.tour .main li a{
+    text-align: start;
+    color:rgb(92, 115, 130);  
+font-size:24px; 
+    text-decoration: none;
+}
+.tour .main li a:hover{
+    color:rgb(174, 49, 49);
 }

@@ -6,8 +6,10 @@ import logo from '../Components/download (2)_prev_ui.png'
 import {Menuitem} from './Menuitem';
 import '../Cssfiles/Navbar.css';
 import {Link} from "react-router-dom";
+
 class Navbar extends Component{
 render(){
+  
     return (
         <nav className="navbar">
             <img src={logo} alt="Logo"/>
@@ -20,7 +22,7 @@ render(){
                     </li>
                 );
             })}
-           
+        
         </ul>
         </nav>
     );

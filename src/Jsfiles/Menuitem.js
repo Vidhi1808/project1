@@ -9,11 +9,12 @@ export const Menuitem=[{
     url: "/about",
     Cname: "nav-links",
     icon: "bi bi-info-circle-fill"
-},{
-    title: "Service",
-    url: "/service",
+},
+{
+    title: "Awards",
+    url: "/awards",
     Cname: "nav-links",
-    icon: "bi bi-bag-fill"
+    icon: "bi bi-award-fill"
 },
 {
     title: "Contact",
@@ -21,6 +22,12 @@ export const Menuitem=[{
     Cname: "nav-links",
     icon: "bi bi-file-person-fill"
 },{
+    title: "Login",
+    url: "/login",
+    Cname: "nav-links",
+    icon: "bi bi-file-lock-fill"
+},
+{
     title: "Sign Up",
     url: "/signup",
     Cname: "nav-links",
